@@ -911,7 +911,6 @@ section,
 }
 
 .portfolio .portfolio-content .portfolio-info {
-  text-align: center !important;
   opacity: 0;
   position: s;
   inset: 0;
@@ -944,7 +943,7 @@ section,
 
 .portfolio .portfolio-content .portfolio-info .preview-link,
 .portfolio .portfolio-content .portfolio-info .details-link {
-  position: absolute;
+  position: sticky;
   left: calc(50% - 40px);
   font-size: 26px;
   top: calc(50% - 14px);
